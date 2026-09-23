@@ -1,0 +1,253 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Extraction",
+      "file_type": "document",
+      "source_file": "research/ROADBLOCKS.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "research_roadblocks_extraction",
+      "community": 0,
+      "community_name": "Roadblocks \u2014 URL \u2192 Nine Ads (Krea 2 Colab)",
+      "norm_label": "extraction"
+    },
+    {
+      "label": "Model / edit path",
+      "file_type": "document",
+      "source_file": "research/ROADBLOCKS.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "research_roadblocks_model_edit_path",
+      "community": 0,
+      "community_name": "Roadblocks \u2014 URL \u2192 Nine Ads (Krea 2 Colab)",
+      "norm_label": "model / edit path"
+    },
+    {
+      "label": "Quality",
+      "file_type": "document",
+      "source_file": "research/ROADBLOCKS.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "research_roadblocks_quality",
+      "community": 0,
+      "community_name": "Roadblocks \u2014 URL \u2192 Nine Ads (Krea 2 Colab)",
+      "norm_label": "quality"
+    },
+    {
+      "label": "Roadblocks \u2014 URL \u2192 Nine Ads (Krea 2 Colab)",
+      "file_type": "document",
+      "source_file": "research/ROADBLOCKS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "research_roadblocks_roadblocks_url_nine_ads_krea_2_colab",
+      "community": 0,
+      "community_name": "Roadblocks \u2014 URL \u2192 Nine Ads (Krea 2 Colab)",
+      "norm_label": "roadblocks \u2014 url \u2192 nine ads (krea 2 colab)"
+    },
+    {
+      "label": "Runtime",
+      "file_type": "document",
+      "source_file": "research/ROADBLOCKS.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "research_roadblocks_runtime",
+      "community": 0,
+      "community_name": "Roadblocks \u2014 URL \u2192 Nine Ads (Krea 2 Colab)",
+      "norm_label": "runtime"
+    },
+    {
+      "label": "Colab (run this)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "readme_colab_run_this",
+      "community": 1,
+      "community_name": "url-ad",
+      "norm_label": "colab (run this)"
+    },
+    {
+      "label": "Docs",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "readme_docs",
+      "community": 1,
+      "community_name": "url-ad",
+      "norm_label": "docs"
+    },
+    {
+      "label": "url-ad",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme_url_ad",
+      "community": 1,
+      "community_name": "url-ad",
+      "norm_label": "url-ad"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 2,
+      "community_name": "README.md",
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "ROADBLOCKS.md",
+      "file_type": "document",
+      "source_file": "research/ROADBLOCKS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "research_roadblocks",
+      "community": 2,
+      "community_name": "README.md",
+      "norm_label": "roadblocks.md"
+    },
+    {
+      "label": "DEMO_URLS.md",
+      "file_type": "document",
+      "source_file": "research/DEMO_URLS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "research_demo_urls",
+      "community": 3,
+      "community_name": "DEMO_URLS.md",
+      "norm_label": "demo_urls.md"
+    },
+    {
+      "label": "Demo product URLs",
+      "file_type": "document",
+      "source_file": "research/DEMO_URLS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "research_demo_urls_demo_product_urls",
+      "community": 3,
+      "community_name": "DEMO_URLS.md",
+      "norm_label": "demo product urls"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme",
+      "target": "readme_url_ad",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_url_ad",
+      "target": "readme_docs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_url_ad",
+      "target": "readme_colab_run_this",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "research/DEMO_URLS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "research_demo_urls",
+      "target": "research_demo_urls_demo_product_urls",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "research/ROADBLOCKS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "research_roadblocks",
+      "target": "research_roadblocks_roadblocks_url_nine_ads_krea_2_colab",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "research/ROADBLOCKS.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "research_roadblocks_roadblocks_url_nine_ads_krea_2_colab",
+      "target": "research_roadblocks_extraction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "research/ROADBLOCKS.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "research_roadblocks_roadblocks_url_nine_ads_krea_2_colab",
+      "target": "research_roadblocks_quality",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "research/ROADBLOCKS.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "research_roadblocks_roadblocks_url_nine_ads_krea_2_colab",
+      "target": "research_roadblocks_model_edit_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "research/ROADBLOCKS.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "research_roadblocks_roadblocks_url_nine_ads_krea_2_colab",
+      "target": "research_roadblocks_runtime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme",
+      "target": "research_roadblocks",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "349d7ce0adfd9bb59f077e91bd07e69a3e5eeeac"
+}
