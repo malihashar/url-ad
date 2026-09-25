@@ -15,3 +15,11 @@
 
 ## Ideogram
 - Out of scope (no local product-edit graph).
+
+## Prompt / overlay lessons (any-product notebook)
+- Asking for “variety” without **EXACTLY ONE person** → Krea clones 2–3 figures in one frame.
+- Mixing person + flat-lay in one instruction → person standing next to clothes / ghost jeans.
+- Product-only must ban feet, shoes-on-body, mannequin, ghost body; prefer floor flat-lay.
+- Never ask Krea to draw text; PIL Montserrat mid-frame; rembg optional for text-behind.
+- `pip install "rembg onnxruntime"` as one arg fails — install as two packages.
+- Brand PDPs often block Colab; prefer Shopify demos with JSON-LD for batch tests.
